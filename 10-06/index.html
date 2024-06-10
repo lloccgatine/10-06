@@ -7,45 +7,94 @@
     <style>
         body{
             display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
         }
-.one{
- background-color: rgb(233, 235, 236);
- width: 40vw;
- height: 60vh;
- border: 1px solid black;
- border-radius: 12px;
- display: flex;
-flex-direction: column;
-justify-content: space-evenly;
-align-items: center;
+.form{
+    width: 50vw;
+    height: 50vh;
+    background-color: rgb(201, 207, 207);
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+   align-items: center;
 }
-.input{
-    width: 80%;
-    height: 10%;
-    border: 1px solid palevioletred;
-
-
+.two{
+    height: 25vh;
+    width: 45vw;
+    background-color: aqua;
+    border: 1px solid pink;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
 }
-.btn{
-    width: 30%;
-    height: 10%;
-    border:  2px solid rebeccapurple;
-
+.hr{
+    height: 15vh;
+    width: 45vw;
+    background-color: rgb(250, 255, 255);
+    border: 1px solid pink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    
+}
+.fr{
+    width: 13vw;
+    height: 13vh;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.vntr{
+    width: 7vw ;
+    height: 3vh;
+    background-color: blueviolet;
+    border: 2px solid black;
+}
+.wert{
+    width: 8vw;
+    height: 3vh;
+    background-color: blue;
+    border: 1px solid black;
 }
     </style>
 </head>
 <body>
-    <div class="one">
-       <div class="input"></div>
-       <div class="input"></div>
-       <div class="input"></div>
-       <div class="input"></div>
-       <div class="btn"></div>
-     </div>
+    <div class="form">
+        <div class="two">
+            <div class="fr">
+                <div class="vntr"></div>
+                <div class="vntr"></div>
+            </div>
+            <div class="fr">
+                <div class="vntr"></div>
+                <div class="vntr"></div>
+            </div>
+            <div class="fr">
+                <div class="vntr"></div>
+                <div class="vntr"></div>
+            </div>
+        </div>
+        <div class="hr">
+            <div class="wert"></div>
+            <div class="wert"></div>
+            <div class="wert"></div>
+            <div class="wert"></div>
+            <div class="wert"></div>
+            <div class="wert"></div>
+            <div class="wert"></div>
+            <div class="wert"></div>
+
+        </div>
+    </div>
 </body>
 </html>
